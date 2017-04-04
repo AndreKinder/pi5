@@ -1,0 +1,19 @@
+ip: 192.168.10.10
+memory: 1024
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /Users/gabriel/Sites/personal/pi5
+        to: /home/vagrant/Code/pi5
+sites:
+    -
+        map: pi5.app
+        to: /home/vagrant/Code/pi5/public
+databases:
+    - homestead
+name: pi5
+hostname: pi5
