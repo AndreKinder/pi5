@@ -3,6 +3,6 @@
 
 @section('content')
   <div class="card">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   </div>
 @endsection
